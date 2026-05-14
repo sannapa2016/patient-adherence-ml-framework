@@ -6,6 +6,10 @@
 The `patient-adherence-ml-framework` addresses one of the most significant challenges in life sciences: **Patient Drop-off**. As shown in our SHAP analysis (**{DFD782D7-79A0-4005-841B-B0E06F8BACDD}.png**), this engine identifies drivers of discontinuation with 85%+ accuracy, allowing commercial teams to intervene proactively.
 
 
+![SHAP Summary Plot](shap_summary.png)
+
+
+
 ## The Strategic Problem: $30B Revenue Leakage
 
 Non-adherence isn't just a clinical issue; it is a massive financial drain. This framework moves beyond simple descriptive statistics to **Predictive Intervention**, identifying high-risk patients before they discontinue therapy.
@@ -60,8 +64,3 @@ python src/predict_risk.py --input data/patient_claims.csv
 
 Distributed under the MIT License.
 
-
-### Why this is a "Closer" for your Portfolio:
-
-**Are you ready to link this into your Master 360 Portfolio page now?**
-![SHAP Summary Plot](shap_summary.png)
