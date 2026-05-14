@@ -44,11 +44,11 @@ The SHAP summary plot (**{DFD782D7-79A0-4005-841B-B0E06F8BACDD}.png**) illustrat
 
 This framework serves as a critical downstream component of our broader Biotech Commercial Stack:
 
-1. **[Referral-Sense-AI](https://www.google.com/search?q=link):** Finds the patient.
-2. **[Cgt-Precision-Patient-360](https://www.google.com/search?q=link):** Verifies the biomarker and therapy fit.
+1. [**Referral-Sense-AI**](https://github.com/sannapa2016/Referral-Sense-AI): Finds the patient.
+2. [**Cgt-Precision-Patient-360**](https://github.com/sannapa2016/CGT-Precision-Patient-360): Verifies the biomarker and therapy fit.
 3. **Patient-Adherence-ML:** (This Repo) Ensures the patient *stays* on therapy.
-4. **[Net-Guard-GTN-Optimizer](https://www.google.com/search?q=link):** Manages the revenue and rebates resulting from successful adherence.
-
+4. [**Net-Guard-GTN-Optimizer**](https://github.com/sannapa2016/Net-guard-gtn-optimizer): Manages the revenue and rebates resulting from successful adherence.
+   
 ## Getting Started
 
 ```bash
