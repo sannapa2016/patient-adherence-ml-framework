@@ -3,7 +3,7 @@
 
 ### *Predictive Modeling & Explainable AI for Therapy Retention*
 
-The `patient-adherence-ml-framework` addresses one of the most significant challenges in life sciences: **Patient Drop-off**. As shown in our SHAP analysis (**{DFD782D7-79A0-4005-841B-B0E06F8BACDD}.png**), this engine identifies drivers of discontinuation with 85%+ accuracy, allowing commercial teams to intervene proactively.
+The `patient-adherence-ml-framework` addresses one of the most significant challenges in life sciences: **Patient Drop-off**. As shown in our SHAP analysis , this engine identifies drivers of discontinuation with 85%+ accuracy, allowing commercial teams to intervene proactively.
 
 
 ![SHAP Summary Plot](shap_summary.png)
@@ -17,7 +17,7 @@ Non-adherence isn't just a clinical issue; it is a massive financial drain. This
 ### Key Capabilities
 
 * **Predictive Drop-off Modeling:** Utilizes **XGBoost** to forecast the probability of a patient missing their next refill or discontinuing therapy entirely.
-* **Explainable Insights (SHAP):** Moves the "Black Box" of ML into transparent business logic. As seen in **{DFD782D7-79A0-4005-841B-B0E06F8BACDD}.png**, we can pinpoint exactly how `digital_engagement_score` or `out_of_pocket_cost` impacts individual risk.
+* **Explainable Insights (SHAP):** Moves the "Black Box" of ML into transparent business logic. As seen in plot, we can pinpoint exactly how `digital_engagement_score` or `out_of_pocket_cost` impacts individual risk.
 * **Commercial Optimization:** Provides actionable data for Patient Support Services (PSS) to prioritize high-risk segments for nurse call-center outreach or copay assistance.
 
 
@@ -34,7 +34,7 @@ Non-adherence isn't just a clinical issue; it is a massive financial drain. This
 
 ## Visualizing the Drivers
 
-The SHAP summary plot (**{DFD782D7-79A0-4005-841B-B0E06F8BACDD}.png**) illustrates the model's decision-making process:
+The SHAP summary plot illustrates the model's decision-making process:
 
 * **High Digital Engagement (Red on the left):** Drastically lowers the probability of discontinuation.
 * **High Out-of-Pocket Costs (Red on the right):** Significantly increases the risk of drop-off.
